@@ -1,0 +1,21 @@
+{
+  "name": "rollup-plugin-remote",
+  "version": "0.1.0",
+  "description": "Load remote modules via http",
+  "files": ["dist"],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "mocha"
+  },
+  "author": "internetfriendsforever <anyone@internetfriendsforever.com>",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "rollup": "^1.1.2"
+  }
+}
